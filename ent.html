@@ -1,0 +1,70 @@
+<html>
+<head>
+<body>
+<style>
+body{
+background-image:url(111.jpg);
+background-size: cover;
+}
+#1{
+text-align: center;
+}
+h1{
+text-align: center;
+margin-top: 20%;
+cursor:pointer;
+
+}
+h2{
+display: none;
+text-align: center;
+margin-top: 5%;
+cursor:pointer;
+font-size:40px;
+border: 1px solid grey;
+padding:3px;
+background-color:black;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.glow a{
+text-decoration:none;
+
+}
+#2 a{
+text-decoration:none;
+}
+</style>
+<h1 id="1" onclick="t()"  class="glow" >MOVIES</h1>
+<h2 id="2" class="glow"><a href="ind.html">Chhichhore</a></h2>
+<h2 id="3" class="glow"><a href="indd.html">Bhoot</a></h2>
+<script>
+function t(){
+x= document.getElementById('1')
+x.style.display="none";
+y =document.getElementById('2')
+y.style.display="block";
+z =document.getElementById('3')
+z.style.display="block";
+
+}
+</script>
+</body>
+</head>
+</html>

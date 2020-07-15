@@ -1,0 +1,49 @@
+body{
+margin:0;
+padding: 0;
+background-color: #000;
+
+}
+.slide
+{
+	width:500px;
+	height:300px;
+	background-image:url(IMG-20200228-WA0032.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:  150px auto;
+	animation: animate 15s infinite;
+	
+}
+@keyframes animate{
+	
+	20%{
+		
+		background-image:url(IMG-20200228-WA0026.jpg);
+	}
+	40%{
+		
+		background-image:url(IMG-20200228-WA0052.jpg);
+	}
+	
+	60%{
+		
+		background-image:url(IMG-20200228-WA0050.jpg);
+	}
+	
+	80%{
+		
+		background-image:url(IMG-20200228-WA0043.jpg);
+	}
+	
+	100%{
+		
+		background-image:url(IMG-20200228-WA0032.jpg);
+	}
+	
+	
+	
+	
+	
+	
+}
